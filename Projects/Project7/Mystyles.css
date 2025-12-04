@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-color: #fff6e6;
+		font-family:Arial, helvetica, sans-serif;
+		font-size:medium;
+		color:#fff6e6;
+}
+
+header{
+	width: 900px;
+	height: 200px;
+	background-color: #1F7A8C;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+
+section{
+	width:900px;
+	background-image: url("Images/2colback.jpg");
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav{
+	float: left;
+	width: 250px;
+}
+
+article{
+	float:left;
+	width: 650px;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #1F7A8C;
+	margin: auto;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";	
+}
+
+.logoleft{
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+nav a{
+	border: 6px inset #CCCCCC;
+	background-color: #1F7A8C;
+	line-height: 200%;
+	font-weight: bold;
+	font-size: 32px;
+	color: #FFEEE6;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: "Segoe UI", Candara, "Helvetica Neue", Arial, sans-serif;
+}
+
+nav a:hover {
+	color: #FF6F61;
+	border: 2px outset #CCCCCC;
+}
+
+h1 {
+	color:antiquewhite;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{ color:#fff6e6;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+
+#thumbs, #image {
+		width: 650px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 5px;
+	}
+
+	#image{
+		height:500px;
+	}
+
+	.instructions{
+		font-style:italic;
+	}
+
+.auto-style1{
+	float:left;
+	height: 230px;
+	margin-left: 30px
+}
+
+h1,h2,h3{
+	color:antiquewhite;
+	text-align: center;
+	font-size: xx-large;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+
+
+
+
+
+
+
+
+
+
